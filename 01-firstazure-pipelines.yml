@@ -9,7 +9,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 #pipeline>stages>jobs>Tasks(steps)
-job:
+ job:
 - job:job1
   steps:
   - script: echo Hello, world changed!
